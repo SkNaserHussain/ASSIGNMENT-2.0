@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(ASSIGNMENT_2_0
         "problem 1.c"
-        "problem 2.c")
+        "problem 2.c"
+        pattern.c)

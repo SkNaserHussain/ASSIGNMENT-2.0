@@ -61,6 +61,12 @@ build CMakeFiles/ASSIGNMENT_2_0.dir/problem_2.c.obj: C_COMPILER__ASSIGNMENT_2_0_
   OBJECT_DIR = CMakeFiles\ASSIGNMENT_2_0.dir
   OBJECT_FILE_DIR = CMakeFiles\ASSIGNMENT_2_0.dir
 
+build CMakeFiles/ASSIGNMENT_2_0.dir/pattern.c.obj: C_COMPILER__ASSIGNMENT_2_0_unscanned_Debug C$:/Users/sknas/OneDrive/Documents/GitHub/ASSIGNMENT-2.0/pattern.c || cmake_object_order_depends_target_ASSIGNMENT_2_0
+  DEP_FILE = CMakeFiles\ASSIGNMENT_2_0.dir\pattern.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ASSIGNMENT_2_0.dir
+  OBJECT_FILE_DIR = CMakeFiles\ASSIGNMENT_2_0.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ASSIGNMENT_2_0
@@ -69,7 +75,7 @@ build CMakeFiles/ASSIGNMENT_2_0.dir/problem_2.c.obj: C_COMPILER__ASSIGNMENT_2_0_
 #############################################
 # Link the executable ASSIGNMENT_2_0.exe
 
-build ASSIGNMENT_2_0.exe: C_EXECUTABLE_LINKER__ASSIGNMENT_2_0_Debug CMakeFiles/ASSIGNMENT_2_0.dir/problem_1.c.obj CMakeFiles/ASSIGNMENT_2_0.dir/problem_2.c.obj
+build ASSIGNMENT_2_0.exe: C_EXECUTABLE_LINKER__ASSIGNMENT_2_0_Debug CMakeFiles/ASSIGNMENT_2_0.dir/problem_1.c.obj CMakeFiles/ASSIGNMENT_2_0.dir/problem_2.c.obj CMakeFiles/ASSIGNMENT_2_0.dir/pattern.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ASSIGNMENT_2_0.dir
