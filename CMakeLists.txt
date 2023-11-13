@@ -8,4 +8,6 @@ add_executable(ASSIGNMENT_2_0
         "problem 2.c"
         pattern.c
         "Display element from an array taken from user.c"
-        "Display element from an array taken from user.c")
+        "Display element from an array taken from user.c"
+        numericals.c
+        numericals.c)
